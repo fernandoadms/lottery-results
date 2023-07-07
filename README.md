@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Exercise
+
+<img src="https://user-images.githubusercontent.com/2853428/116301437-65c01a00-a776-11eb-9ae8-7d6d9cf3d128.png">
+
+## Intro
+
+The purpose of this exercise is to be simple and fun.
+
+## Exercise
+
+The goal is to build a **front-end application** that displays the **lottery results**.
+
+### Resources
+
+- [Layout](https://www.figma.com/file/H2qrYBCFMf4didYmxRwTxP/Brainn-Frontend-Challenge)
+- [API](https://brainn-api-loterias.herokuapp.com)
+- [Typography](https://fonts.google.com/specimen/Montserrat)
+
+### Requirements & Feature
+
+- The app should support 6 lotteries: `Mega-sena`, `Quina`, `Lotofácil`, `Lotomania`, `Timemania`, and `Dia de sorte`.
+- All the lotteries should be in a combo box/select.
+- When the value in the combo box changes, **the lottery theme**, **lottery number**, **lottery date**, and **lottery result numbers** should also change.
+- The app should be responsive and mobile-friendly, following the provided layout.
+- The API can be implemented using REST or GraphQL.
+- Creating routes with React Router DOM is optional.
+
+### Expected Tecnologies
+
+- React with TypeScript
+- Tests with React Testing Library and/or Cypress
+
+## Doubts
+
+If you have any doubts, you can contact your recruiter via email: [mariana@brainn.co](mailto:mariana@brainn.co).
+
+## How the test was build
+
+This is an test build with:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev)
+- [Typescript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## Getting Started
 
-First, run the development server:
+First, install the project:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm i
+```
+
+First, run:
+
+```bash
+npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
