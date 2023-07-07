@@ -22,4 +22,5 @@ body {
 
 body {
   background-color: var(--color-default);
+  font-family: 'Comic Sans', Courier, monospace;
 }
