@@ -2,12 +2,15 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  weight: ["400", "500", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Lottery Results",
   description:
-    "Loterries: Mega-sena, Quina, Lotofácil, Lotomania, Timemania, and Dia de sorte.",
+    "Lotteries: Mega-sena, Quina, Lotofácil, Lotomania, Timemania, and Dia de sorte.",
 };
 
 export default function RootLayout({

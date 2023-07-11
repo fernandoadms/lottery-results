@@ -1,5 +1,8 @@
 :root {
-  --color-default: #efefef
+  --color-white: #ffffff;
+  --color-black: #000;
+  --color-dark: #333333;
+  --color-light: #efefef;
   --color-megasena: #6befa3;
   --color-quina: #8666ef;
   --color-lotofacil: #dd7ac6;
@@ -16,11 +19,13 @@
 }
 
 html,
-body {
+body,
+main {
   height: 100vh;
+  width: 100%;
 }
 
 body {
-  background-color: var(--color-default);
-  font-family: 'Comic Sans', Courier, monospace;
+  background-color: var(--color-light);
+  position: relative;
 }
